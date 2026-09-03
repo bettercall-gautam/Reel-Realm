@@ -301,6 +301,44 @@ footer p + p {
     }
 }
 
+/* Touch devices can request Desktop site, which reports a wide CSS viewport. */
+@media (hover: none) and (pointer: coarse) {
+    .navBar {
+        align-items: stretch;
+        flex-direction: column;
+        padding: 0.85rem 1rem 1rem;
+    }
+
+    .logo h1 {
+        text-align: center;
+    }
+
+    .searchContainer {
+        width: 100%;
+        max-width: none;
+    }
+
+    main,
+    main section,
+    .movieContainer {
+        display: block;
+        height: auto;
+        min-height: 0;
+    }
+
+    main section {
+        padding: 1.5rem 1rem;
+    }
+
+    .movieWrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .moviePoster img {
+        max-width: min(100%, 260px);
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
