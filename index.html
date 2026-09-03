@@ -3,46 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reel Realm</title>
+    <meta name="description" content="Search and discover movie details with Reel Realm.">
+    <title>Reel Realm | Movie Search</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <!-- Navbar -->
-     <nav>
-     <div class="navBar">
-        <div class="logo"><h1>Reel Realm  <i class="fa-solid fa-film"></i></h1>
+    <nav aria-label="Main navigation">
+        <div class="navBar">
+            <div class="logo">
+                <h1>Reel Realm <i class="fa-solid fa-film" aria-hidden="true"></i></h1>
+            </div>
+            <div class="searchContainer">
+                <form role="search">
+                    <label class="sr-only" for="movie-search">Search for a movie</label>
+                    <input id="movie-search" type="search" placeholder="Search movie" class="inputBox" autocomplete="off">
+                    <button type="submit" aria-label="Search movies" class="fa-solid fa-magnifying-glass"></button>
+                </form>
+            </div>
         </div>
-        <div class="searchContainer">
-            <form>
-                <input type="text" placeholder="Search Movie" class="inputBox">
-                <button type="submit" class="fa-solid fa-magnifying-glass"></button>
-            </form>
-        </div>
-     </div>
     </nav>
 
-    <!-- Main Section of movie data -->
-     <main>
-        <section>
+    <main>
+        <section aria-live="polite">
             <div class="movieContainer">
-                <h2>Explore the World of Movies – Search & Discover at Reel Realm :) </h2>
+                <h2>Explore the World of Movies. Search and Discover at Reel Realm.</h2>
             </div>
         </section>
-     </main>
+    </main>
 
-     <!-- footer -->
-      <footer>
-          <p class="madeBy"><u>Made by <span class="gautam">Gautam</span> with <span class="heart">❤</span></u></p><br>
+    <footer>
+        <p class="madeBy"><u>Made by <span class="gautam">Gautam</span> with <span class="heart">❤</span></u></p>
         <p class="github">
-            <a href="https://github.com/Gautam-Jais007/Reel-Realm">
+            <a href="https://github.com/bettercall-gautam/Reel-Realm" rel="noopener noreferrer">
                 <u>Code Link</u>
-                <i class="fa-brands fa-github" id="gitIcon"></i>
+                <i class="fa-brands fa-github" id="gitIcon" aria-hidden="true"></i>
             </a>
         </p>
-      </footer>
-      <script src="script.js"></script>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
