@@ -5,7 +5,7 @@ It fetches movie information from the **OMDb API** based on the user's search in
 
 > This was one of my early projects while learning frontend development. It focuses on API integration, DOM manipulation, and clean UI layout using Flexbox and gradients.
 
-🚀 **[Live Demo](https://reel-realm.netlify.app/)** | 🖥️ **Note:** Designed for **Desktop Mode** only.
+🚀 **[Live Demo](https://bettercall-gautam.github.io/Reel-Realm/)** | 🖥️ **Note:** Designed for **Desktop Mode** only.
 ---
 
 ## 🌟 Features
@@ -55,4 +55,3 @@ Here’s a snapshot of the user interface and movie search feature:
 ![ss-3](https://github.com/user-attachments/assets/bc7c7751-0036-402e-9766-36abe0a662ce)
 ![ss-2](https://github.com/user-attachments/assets/13ff1212-7ae4-4ec8-946e-4ce1246e975a)
 ![ss-1](https://github.com/user-attachments/assets/21f45a61-370b-4039-8472-38d0664e14d2)
-
