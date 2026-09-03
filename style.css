@@ -112,15 +112,15 @@ nav {
 }
 
 main {
-    min-height: calc(100vh - 156px);
+    min-height: 0;
 }
 
 main section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    min-height: inherit;
-    padding: clamp(2rem, 6vw, 5rem) 1rem;
+    min-height: 0;
+    padding: clamp(1.5rem, 4vw, 3rem) 1rem;
     background: radial-gradient(circle at top, var(--blue) 0%, var(--navy) 100%);
 }
 
@@ -261,10 +261,6 @@ footer p + p {
 
     .searchContainer {
         max-width: none;
-    }
-
-    main {
-        min-height: calc(100vh - 190px);
     }
 
     .movieWrapper {
