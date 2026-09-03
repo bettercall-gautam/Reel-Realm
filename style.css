@@ -112,6 +112,7 @@ nav {
 }
 
 main {
+    height: auto;
     min-height: 0;
 }
 
@@ -119,6 +120,7 @@ main section {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    height: auto;
     min-height: 0;
     padding: clamp(1.5rem, 4vw, 3rem) 1rem;
     background: radial-gradient(circle at top, var(--blue) 0%, var(--navy) 100%);
@@ -265,6 +267,13 @@ footer p + p {
 
     .movieWrapper {
         grid-template-columns: 1fr;
+    }
+
+    main,
+    main section,
+    .movieContainer {
+        height: auto !important;
+        min-height: 0 !important;
     }
 
     .moviePoster img {
